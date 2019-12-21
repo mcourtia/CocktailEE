@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+	background-image: url("http://miam-images.m.i.pic.centerblog.net/o/4b61616e.jpg");
+	background-size: 100% auto;
+	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
+}
+
+#content {
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 40px 60px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	color: whitesmoke;
+	text-shadow: 1px 1px 2px black;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+button {
+	margin: 15px;
+	padding: 15px;
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: rgb(202, 60, 60);
+}
+
+form>div {
+	margin: 30px 0;
+}
+
+table {
+	margin: 30px auto 30px;
+}
+
+th {
+	padding-bottom: 10px;
+}
+
+#message {
+	margin-bottom: 30px;
+	color: red;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#subtitle {
+	font-weight: bold;
+}
+
+select {
+	font-size: 16px;
+	font-weight: bold;
+	width: 150px;
+	height: 30px;
+	color: #444;
+	border-radius: 5px;
+}
+
+input {
+	font-size: 14px;
+	font-weight: bold;
+	width: 60px;
+	height: 30px;
+	color: #444;
+	text-align: center;
+	padding-left: 5px;
+	border-radius: 5px;
+}
